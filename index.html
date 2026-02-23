@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-   <title>website</title>
-   <link rel="stylesheet" href="style.css">
-</head> 
-<b0dy>
-   <h1>hello world</h1>
-   <p>this is my first full stack project</p>
-</b0dy>
-</html
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishitha Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <nav>
+            <h1>Rishitha</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-text" id="home">
+            <h2>Hello, I'm <span>Rishitha</span></h2>
+            <p>Aspiring Web Developer</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-container">
+            <img src="profile.jpg" alt="Rishitha">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I am a passionate web developer with a love for coding, designing, and learning new technologies. I create modern and responsive websites.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="bar"><div class="progress" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="bar"><div class="progress" style="width: 70%;"></div></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Rishitha. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
