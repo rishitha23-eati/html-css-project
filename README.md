@@ -3,7 +3,7 @@
 This is my personal portfolio built using HTML and CSS.
 
 ## 🚀 Live Website
-[Click Here to View](your-live-link)
+ https://rishitha23-eati.github.io/html-css-project
 
 ## 🛠 Technologies Used
 - HTML
